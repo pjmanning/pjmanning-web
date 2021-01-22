@@ -62,7 +62,7 @@
                             <div class="block pr-4 ml-10">
                                 <nuxt-link class="font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900" to="/digital-nomad-jobs">Jobs</nuxt-link>
                                 <nuxt-link class="ml-8 font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900" to="/travel-developer-toolkit">Tools</nuxt-link>
-                                <nuxt-link class="ml-8 font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900" to="/digital-nomad-blog">Blog</nuxt-link>
+                                <nuxt-link class="ml-8 font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900" to="/blog">Blog</nuxt-link>
                                 <a class="ml-8 font-medium transition duration-150 ease-in-out text-secondary hover:text-primary" href="https://sso.teachable.com/secure/36980/users/sign_in?clean_login=true&reset_purchase_session=1" target="_blank">Log in</a>
                             </div>
                         </nav>
@@ -119,7 +119,7 @@
                                     >
                                     <nuxt-link
                                         class="block px-3 py-2 mt-1 text-base font-medium text-gray-700 transition duration-150 ease-in-out rounded-md hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50"
-                                        to="/digital-nomad-blog"
+                                        to="/blog"
                                         role="menuitem"
                                         >Blog</nuxt-link
                                     >

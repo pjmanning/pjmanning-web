@@ -1,19 +1,21 @@
 <template>
     <div>
-        <div class="flex flex-col justify-between py-16 mx-auto sm:flex-row">
+        <!-- hero -->
+        <div class="flex flex-col justify-between max-w-3xl py-24 mx-4 sm:mx-auto sm:flex-row">
             <div class="w-full text-4xl font-bold text-center md:w-full md:-ml-12 md:mr-8 md:mt-5 md:text-5xl sm:w-3/5 sm:text-left">
                 <div class="leading-tight">
                     Hey, I'm PJ. I&nbsp;build&nbsp;stuff...
-                    <span class="leading-tight text-blue-100"> <br />and spend a lot of time in the water. </span>
+                    <span class="leading-tight text-blue-400"> <br />and spend a lot of time in the water. </span>
                 </div>
             </div>
             <div class="mt-8 sm:mt-0">
-                <img src="~/assets/images/home/working.jpg" width="285px" alt="pj manning" class="mx-auto rounded-lg sm:mx-0" />
+                <img src="~/assets/images/home/working.jpg" width="285px" alt="hero" class="mx-auto rounded-lg sm:mx-0" />
             </div>
         </div>
         <!-- end hero -->
 
-        <div class="mx-auto container-inner">
+        <!-- blurb  -->
+        <div class="max-w-3xl mx-4 sm:mx-auto">
             <p class="text-lg sm:text-xl">
                 I believe the next wave of great of advances in human society with come from combining
                 <strong>technology</strong>, <strong>community</strong>, and <strong>sustainability</strong>. I'm currently working on a few independent and open-sourced projects based on these pillars.
@@ -25,16 +27,25 @@
                 </div>
             </div>
         </div>
+        <!-- end blurb  -->
 
+        <!-- divider  -->
+        <div class="relative max-w-3xl mx-auto mt-12" id="projects">
+            <div class="absolute inset-0 flex items-center" aria-hidden="true">
+                <div class="w-full border-t border-gray-300"></div>
+            </div>
+            <div class="relative flex justify-center">
+                <span class="px-3 text-lg font-medium text-gray-900 bg-white"> Projects </span>
+            </div>
+        </div>
+        <!-- end divider  -->
+
+        <!-- projects  -->
         <div class="overflow-x-hidden">
-            <div class="relative py-16 mx-auto mb-16 text-xl border-t border-b border-gray-500 projects container-inner">
-                <h2 class="mb-6 font-bold" id="projects">Here are some of the projects I'm working on:</h2>
-
-                <!-- Projects  -->
-
+            <div class="relative max-w-3xl py-16 mx-4 mb-16 text-xl border-b border-gray-300 sm:mx-auto">
                 <ul class="grid grid-cols-1 gap-6 sm:grid-cols-2">
                     <!-- BINNDLE -->
-                    <li class="col-span-1 rounded-lg shadow bg-background-card">
+                    <li class="col-span-1 border border-gray-100 rounded-lg shadow bg-background-card">
                         <div class="flex items-center justify-between w-full p-6 space-x-6">
                             <div class="flex-1 truncate">
                                 <div class="flex items-center space-x-3">
@@ -79,7 +90,7 @@
                     </li>
 
                     <!-- ANIMALI -->
-                    <li class="col-span-1 rounded-lg shadow bg-background-card">
+                    <li class="col-span-1 border border-gray-100 rounded-lg shadow bg-background-card">
                         <div class="flex items-center justify-between w-full p-6 space-x-6">
                             <div class="flex-1 truncate">
                                 <div class="flex items-center space-x-3">
@@ -124,7 +135,7 @@
                     </li>
 
                     <!-- WAVETROTTER -->
-                    <li class="col-span-1 rounded-lg shadow bg-background-card">
+                    <li class="col-span-1 border border-gray-100 rounded-lg shadow bg-background-card">
                         <div class="flex items-center justify-between w-full p-6 space-x-6">
                             <div class="flex-1 truncate">
                                 <div class="flex items-center space-x-3">
@@ -183,7 +194,7 @@
                             </div>
                             <img
                                 class="flex-shrink-0 w-12 h-12 bg-gray-300 rounded-full"
-                                src="~/assets/images/home/traveldeveloper-logo.png"
+                                src="../../static/traveldeveloper-logo.png"
                                 alt
                             />
                         </div>
@@ -214,7 +225,8 @@
                             </div>
                         </div>
                     </li> -->
-                    <li class="col-span-1 rounded-lg shadow bg-background-card">
+                    <!-- STARTSMALL  -->
+                    <li class="col-span-1 border border-gray-100 rounded-lg shadow bg-background-card">
                         <div class="flex items-center justify-between w-full p-6 space-x-6">
                             <div class="flex-1 truncate">
                                 <div class="flex items-center space-x-3">
@@ -245,11 +257,12 @@
                     </svg>
                 </div>
             </div>
-            <!-- end projects -->
         </div>
+        <!-- end projects  -->
 
+        <!-- about me  -->
         <div class="overflow-x-hidden border-b border-gray-200">
-            <div class="relative pb-16 mx-auto text-xl get-to-know-me container-inner">
+            <div class="relative max-w-3xl pb-16 mx-4 text-xl get-to-know-me sm:mx-auto">
                 <h2 class="mb-6 font-bold text-center sm:text-left" id="about">A little about me...</h2>
 
                 <div class="absolute left-0" style="top: 50px; transform: translateX(-100%)">
@@ -265,66 +278,74 @@
                     <div class="flex-1 text-lg sm:text-xl sm:ml-6">Over the past 10 years, I've worked with 30+ businesses creating websites and mobile applications. I have a unique perspective having worked with the fastest growing e-commerce website in the world (Jet.com), to tracking whale sharks in the Maldives.</div>
                 </div>
 
-                <div class="responsive-container">
-                    <iframe class="top-0 left-0 w-full h-full border-0 responsive-iframe" src="https://www.youtube.com/embed/FlAYtA1exRA" style="border: 0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="h-96">
+                    <iframe class="top-0 left-0 w-full h-full border-0" src="https://www.youtube.com/embed/FlAYtA1exRA" style="border: 0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
-            <!-- end get-to-know me -->
         </div>
+        <!-- end about me  -->
 
-        <div class="overflow-x-hidden">
-            <div class="pt-16 contact-me bg-background-secondary">
-                <div class="relative pb-4 mx-auto text-xl container-inner">
-                    <h2 class="mb-6 font-bold" id="contact">For projects, inquiries, and/or beer...</h2>
-
-                    <div class="absolute top-0 right-0" style="transform: translate(100%) rotate(180deg)">
-                        <svg width="170px" height="170px">
-                            <use xlink:href="#dots-triangle" />
-                        </svg>
-                    </div>
-
-                    <!-- <p class="mb-12">For projects, inquiries, and consultating...</p> -->
-
-                    <div class="mb-16 text-lg sm:text-lg">
-                        <form action="https://formspree.io/xyydaozy" method="POST" class="mb-12">
-                            <div class="flex flex-wrap mb-6 -mx-4">
-                                <div class="w-full px-4 mb-6 md:w-1/2 md:mb-0">
-                                    <label class="block mb-2 text-copy-primary" for="name">Name</label>
-
-                                    <input type="text" name="name" id="name" placeholder="Jon Snow" class="block w-full p-4 mb-2 border rounded shadow outline-none bg-background-form border-border-color-primary focus:border-blue-100" required />
-                                </div>
-
-                                <div class="w-full px-4 md:w-1/2">
-                                    <label class="block mb-2 text-copy-primary" for="email">Email Address</label>
-
-                                    <input type="email" name="_replyto" id="email" placeholder="email@example.com" class="block w-full p-4 mb-2 border rounded shadow outline-none bg-background-form border-border-color-primary focus:border-blue-100" required />
-                                </div>
+        <!-- contact form  -->
+        <div class="px-4 py-16 overflow-hidden bg-white sm:px-6 lg:px-8 lg:py-24" id="contact">
+            <div class="relative max-w-xl mx-auto">
+                <svg class="absolute transform translate-x-1/2 left-full" width="404" height="404" fill="none" viewBox="0 0 404 404" aria-hidden="true">
+                    <defs>
+                        <pattern id="85737c0e-0916-41d7-917f-596dc7edfa27" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                            <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+                        </pattern>
+                    </defs>
+                    <rect width="404" height="404" fill="url(#85737c0e-0916-41d7-917f-596dc7edfa27)" />
+                </svg>
+                <svg class="absolute bottom-0 transform -translate-x-1/2 right-full" width="404" height="404" fill="none" viewBox="0 0 404 404" aria-hidden="true">
+                    <defs>
+                        <pattern id="85737c0e-0916-41d7-917f-596dc7edfa27" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                            <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+                        </pattern>
+                    </defs>
+                    <rect width="404" height="404" fill="url(#85737c0e-0916-41d7-917f-596dc7edfa27)" />
+                </svg>
+                <div class="text-center">
+                    <h2 class="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">For projects, inquiries, and/or beer...</h2>
+                    <!-- <p class="mt-4 text-lg leading-6 text-gray-500">Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.</p> -->
+                </div>
+                <div class="mt-12">
+                    <form action="https://formspree.io/xyydaozy" method="POST" class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                            <div class="mt-1">
+                                <input id="name" type="text" name="name" placeholder="Jon Snow" required autocomplete="given-name" class="block w-full px-4 py-3 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" />
                             </div>
-
-                            <div class="w-full mb-12">
-                                <label class="block mb-2 text-copy-primary" for="message">Message</label>
-
-                                <textarea id="message" rows="5" name="message" class="block w-full px-4 py-4 mb-2 border rounded shadow outline-none appearance-none bg-background-form border-border-color-primary focus:border-blue-100" placeholder="Enter your message here." required></textarea>
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                            <div class="mt-1">
+                                <input id="email" type="email" name="_replyto" placeholder="elon@spacex.com" required autocomplete="email" class="block w-full px-4 py-3 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" />
                             </div>
-
-                            <div class="flex justify-start w-full">
-                                <input type="submit" value="Submit" class="block w-full px-6 py-3 font-semibold tracking-wide text-white uppercase bg-blue-200 rounded shadow cursor-pointer hover:bg-blue-100 focus:outline-none focus:bg-blue-100 text-md" />
+                        </div>
+                        <div class="sm:col-span-2">
+                            <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                            <div class="mt-1">
+                                <textarea id="message" name="message" rows="5" required placeholder="Let's build some cool shit together..." class="block w-full px-4 py-3 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"></textarea>
                             </div>
-                        </form>
-                    </div>
+                        </div>
+
+                        <div class="sm:col-span-2">
+                            <button type="submit" class="inline-flex items-center justify-center w-full px-6 py-3 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">Let's chat</button>
+                        </div>
+                    </form>
                 </div>
             </div>
-            <!-- end contact-me -->
         </div>
 
-        <div class="newsletter bg-background-tertiary">
-            <div class="py-16 pb-8 mx-auto text-center container-inner textl-xl">
+        <!-- follow me  -->
+        <div class="bg-gray-100">
+            <div class="max-w-3xl py-16 pb-8 mx-auto text-xl text-center">
                 <h2 class="mb-8 text-2xl font-bold">Follow My Work!</h2>
 
                 <div class="w-4/5 mx-auto mb-8">
                     <p class="mb-8 text-lg sm:text-xl">If you're interested in my projects and want to keep up or collaborate - follow and contact me on twitter</p>
 
-                    <a href="https://twitter.com/pj_manning" class="inline-flex items-center px-12 py-4 rounded" style="background-color: #1da1f2">
+                    <a href="https://twitter.com/pj_manning" target="_blank" class="inline-flex items-center px-12 py-4 rounded" style="background-color: #1da1f2">
                         <svg width="20" height="17" fill="white" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M19.807 1.943a8.588 8.588 0 0 1-2.036 2.135 11.918 11.918 0 0 1-.465 3.854 12.085 12.085 0 0 1-1.452 3.177 12.426 12.426 0 0 1-2.318 2.691c-.897.78-1.978 1.402-3.243 1.867-1.265.464-2.618.697-4.06.697-2.27 0-4.348-.618-6.233-1.854.293.034.62.051.98.051 1.885 0 3.565-.588 5.04-1.764a3.915 3.915 0 0 1-2.363-.825 4.038 4.038 0 0 1-1.432-2.039c.276.043.532.064.766.064.36 0 .717-.047 1.068-.14A3.982 3.982 0 0 1 1.73 8.43c-.617-.754-.925-1.63-.925-2.627v-.051c.57.324 1.182.498 1.835.524a4.1 4.1 0 0 1-1.32-1.47 4.078 4.078 0 0 1-.49-1.969c0-.75.185-1.445.553-2.084a11.548 11.548 0 0 0 3.702 3.05 11.163 11.163 0 0 0 4.669 1.271c-.067-.324-.1-.639-.1-.946 0-1.142.395-2.116 1.187-2.92C11.632.402 12.589 0 13.712 0c1.173 0 2.161.435 2.966 1.304a7.878 7.878 0 0 0 2.576-.997 3.997 3.997 0 0 1-1.785 2.275 7.98 7.98 0 0 0 2.338-.639z"
@@ -336,8 +357,8 @@
                 </div>
             </div>
 
-            <div class="pb-4 mx-auto -mt-32 overflow-x-hidden container-inner">
-                <svg width="725" height="166" xmlns="http://www.w3.org/2000/svg">
+            <div class="pb-4 mx-auto -mt-32 overflow-x-hidden">
+                <svg width="725" height="166" class="mx-auto" xmlns="http://www.w3.org/2000/svg">
                     <g fill="none" fill-rule="evenodd">
                         <g opacity=".515">
                             <path
@@ -426,9 +447,7 @@
 </template>
 
 <script>
-export default {
-    layout: 'home',
-}
+export default {}
 </script>
 
 <style scoped></style>

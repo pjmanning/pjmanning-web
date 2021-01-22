@@ -6,8 +6,8 @@
             </div>
             <div class="relative mx-auto max-w-7xl">
                 <div class="text-center">
-                    <h2 class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">Digital Nomad Blog</h2>
-                    <p class="max-w-2xl mx-auto mt-3 text-xl leading-7 text-gray-500 sm:mt-4">Stay up to date with the latest trends and news with Travel Developer</p>
+                    <h2 class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">News & Updates</h2>
+                    <p class="max-w-2xl mx-auto mt-3 text-xl leading-7 text-gray-500 sm:mt-4">Projects I'm working on, nomad news and more...</p>
                 </div>
                 <div class="grid max-w-lg gap-5 mx-auto mt-12 lg:grid-cols-3 lg:max-w-none">
                     <nuxt-link v-for="post in posts" :key="post.title" :to="post.slug" class="flex flex-col overflow-hidden transition-all duration-300 ease-in-out transform rounded-lg shadow-lg hover:shadow-2xl hover:-translate-y-2">
@@ -118,8 +118,6 @@
 
 <script>
 export default {
-    layout: 'main',
-
     async fetch() {
         this.posts = await this.$content('posts').sortBy('createdAt', 'desc').fetch()
         this.authors = await this.$content('authors').fetch()

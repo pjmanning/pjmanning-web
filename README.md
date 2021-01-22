@@ -1,6 +1,6 @@
 # My Portfolio - [@pj_manning](https://twitter.com/pj_manning)
 
-<img src="static/working.jpg" alt="PJ Manning" width="120" height="120" style="border-radius: 100%;" />
+<img src="assets/images/home/working.jpg" alt="PJ Manning" width="120" height="120" style="border-radius: 100%;" />
 
 ## Live Site URL
 
@@ -8,11 +8,11 @@
 
 ## Features
 
-- Built with [Nuxt](https://nuxtjs.org/)
-- Clean and minimal design
-- Blog with markdown content for posts
-- Tags for posts
-- Sitemap in XML
+-   Built with [Nuxt](https://nuxtjs.org/)
+-   Clean and minimal design
+-   Blog with markdown content for posts
+-   Tags for posts
+-   Sitemap in XML
 
 ## Installation
 
@@ -23,8 +23,8 @@
 
 ## Notes
 
-- If you want to deploy your own site for free - check out [Netlify](https://netlify.com)
-- Tweet at me your creation ;) [@pj_manning](https://pj_manning.dev)
+-   If you want to deploy your own site for free - check out [Netlify](https://netlify.com)
+-   Tweet at me your creation ;) [@pj_manning](https://pj_manning.dev)
 
 ## Contact
 

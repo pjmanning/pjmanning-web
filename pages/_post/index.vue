@@ -10,7 +10,7 @@
 
         <NuxtContent class="px-4 mx-auto my-12 prose lg:prose-lg xl:prose-xl sm:my-24" :document="article" />
 
-        <!-- <author :author="author[0]" /> -->
+        <author :author="author[0]" />
     </div>
 </template>
 
@@ -28,7 +28,7 @@ export default {
 
     head() {
         return {
-            title: `${this.article.title} | Travel Developer`,
+            title: `${this.article.title} | PJ Manning`,
             meta: [
                 {
                     hid: 'description',

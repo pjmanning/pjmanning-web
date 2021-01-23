@@ -54,7 +54,7 @@ export default {
                 {
                     hid: 'og:url',
                     property: 'og:url',
-                    content: `https://traveldeveloper.com/${this.article.slug}`,
+                    content: `https://pjmanning.dev/${this.article.slug}`,
                 },
                 {
                     hid: 'og:image',

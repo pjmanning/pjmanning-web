@@ -3,7 +3,7 @@
         <h1 class="pb-4 text-5xl text-center">Privacy Policy</h1>
         <p>Your privacy is important to us.</p>
 
-        <p>The following Privacy Policy governs the online information collection practices of doodDevelopments, LLC (traveldeveloper.com) hereby referred to as “we” or “us”. Specifically, it outlines the types of information that we gather about you while you are using the traveldeveloper.com website, and the ways in which we use this information.</p>
+        <p>The following Privacy Policy governs the online information collection practices of doodDevelopments, LLC (pjmanning.dev) hereby referred to as “we” or “us”. Specifically, it outlines the types of information that we gather about you while you are using the pjmanning.dev website, and the ways in which we use this information.</p>
 
         <p>It is doodDevelopments, LLC's policy to respect your privacy regarding any information we may collect while operating our website. Accordingly, we have developed this privacy policy in order for you to understand how we collect, use, communicate, disclose and otherwise make use of personal information. We have outlined our privacy policy below.</p>
 

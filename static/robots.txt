@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://traveldeveloper.com/sitemap.xml
+Sitemap: https://pjmanning.dev/sitemap.xml

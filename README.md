@@ -11,13 +11,12 @@
 -   Built with [Nuxt](https://nuxtjs.org/)
 -   Clean and minimal design
 -   Blog with markdown content for posts
--   Tags for posts
 -   Sitemap in XML
 
 ## Installation
 
 1. Clone the repo: `git clone https://github.com/pjmanning/pjmanning-dev.git`
-2. `cd pjmanning-dev`
+2. `cd pjmanning-web`
 3. `yarn install`
 4. `yarn dev` to start a local dev server at `http://localhost:3000`
 

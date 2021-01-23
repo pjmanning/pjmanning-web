@@ -1,7 +1,7 @@
 <template>
     <div>
         <!-- hero -->
-        <div class="flex flex-col justify-between max-w-3xl py-24 mx-4 sm:mx-auto sm:flex-row">
+        <div class="flex flex-col justify-between max-w-3xl py-12 mx-4 sm:py-24 sm:mx-auto sm:flex-row">
             <div class="w-full text-4xl font-bold text-center md:w-full md:-ml-12 md:mr-8 md:mt-5 md:text-5xl sm:w-3/5 sm:text-left">
                 <div class="leading-tight">
                     Hey, I'm PJ. I&nbsp;build&nbsp;stuff...
@@ -22,7 +22,7 @@
             </p>
 
             <div class="flex items-center justify-between py-6">
-                <div class="w-full py-8 sm:py-0">
+                <div class="w-full">
                     <img src="~/assets/images/home/whaleSharkPhoto.jpg" alt="whale shark" />
                 </div>
             </div>
@@ -271,14 +271,14 @@
                     </svg>
                 </div>
 
-                <div class="flex flex-col items-center justify-between mb-16 sm:flex-row">
+                <div class="flex flex-col items-center justify-between mb-8 sm:flex-row">
                     <div>
                         <img src="~/assets/images/home/meSmallCircle.png" alt="avatar" class="w-32 h-32 mb-8 rounded-full lg:mb-0" />
                     </div>
                     <div class="flex-1 text-lg sm:text-xl sm:ml-6">Over the past 10 years, I've worked with 30+ businesses creating websites and mobile applications. I have a unique perspective having worked with the fastest growing e-commerce website in the world (Jet.com), to tracking whale sharks in the Maldives.</div>
                 </div>
 
-                <div class="h-96">
+                <div class="h-48 sm:h-96">
                     <iframe class="top-0 left-0 w-full h-full border-0" src="https://www.youtube.com/embed/FlAYtA1exRA" style="border: 0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
@@ -308,7 +308,7 @@
                     <h2 class="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">For projects, inquiries, and/or beer...</h2>
                     <!-- <p class="mt-4 text-lg leading-6 text-gray-500">Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.</p> -->
                 </div>
-                <div class="mt-12">
+                <div class="mt-8">
                     <form action="https://formspree.io/xyydaozy" method="POST" class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
                         <div>
                             <label for="name" class="block text-sm font-medium text-gray-700">Name</label>

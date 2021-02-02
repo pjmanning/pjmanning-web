@@ -45,7 +45,7 @@
             <div class="relative max-w-3xl py-16 mx-4 mb-16 text-xl border-b border-gray-300 sm:mx-auto">
                 <ul class="grid grid-cols-1 gap-6 sm:grid-cols-2">
                     <!-- BINNDLE -->
-                    <li class="col-span-1 border border-gray-100 rounded-lg shadow bg-background-card">
+                    <!-- <li class="col-span-1 border border-gray-100 rounded-lg shadow bg-background-card">
                         <div class="flex items-center justify-between w-full p-6 space-x-6">
                             <div class="flex-1 truncate">
                                 <div class="flex items-center space-x-3">
@@ -65,29 +65,9 @@
                                         <span class="ml-3">Website</span>
                                     </a>
                                 </div>
-                                <!-- <div class="flex flex-1 w-0 -ml-px">
-                                    <a
-                                        href="https://itunes.apple.com/gb/app/whale-shark-network-maldives/id882042297?mt=8"
-                                        target="_blank"
-                                        class="relative inline-flex items-center justify-center flex-1 w-0 py-4 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out border border-transparent rounded-br-lg hover:text-gray-500 focus:outline-none focus:shadow-outline-blue focus:z-10"
-                                    >
-                                        <svg
-                                            class="w-5 h-5 text-gray-400"
-                                            fill="currentColor"
-                                            viewBox="0 0 20 20"
-                                        >
-                                            <path
-                                                fill-rule="evenodd"
-                                                d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"
-                                                clip-rule="evenodd"
-                                            />
-                                        </svg>
-                                        <span class="ml-3">iOS</span>
-                                    </a>
-                                </div>-->
                             </div>
                         </div>
-                    </li>
+                    </li> -->
 
                     <!-- ANIMALI -->
                     <li class="col-span-1 border border-gray-100 rounded-lg shadow bg-background-card">

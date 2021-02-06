@@ -45,7 +45,7 @@
             <div class="relative max-w-3xl py-16 mx-4 mb-16 text-xl border-b border-gray-300 sm:mx-auto">
                 <ul class="grid grid-cols-1 gap-6 sm:grid-cols-2">
                     <!-- BINNDLE -->
-                    <!-- <li class="col-span-1 border border-gray-100 rounded-lg shadow bg-background-card">
+                    <li class="col-span-1 border border-gray-100 rounded-lg shadow bg-background-card">
                         <div class="flex items-center justify-between w-full p-6 space-x-6">
                             <div class="flex-1 truncate">
                                 <div class="flex items-center space-x-3">
@@ -67,7 +67,7 @@
                                 </div>
                             </div>
                         </div>
-                    </li> -->
+                    </li>
 
                     <!-- ANIMALI -->
                     <li class="col-span-1 border border-gray-100 rounded-lg shadow bg-background-card">

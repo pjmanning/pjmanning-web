@@ -51,7 +51,7 @@
                                 <div class="flex items-center space-x-3">
                                     <h3 class="text-xl font-medium leading-5 text-gray-900 truncate">Binndle</h3>
                                 </div>
-                                <p class="mt-1 text-sm leading-5 text-gray-500 truncate">Find out what people use</p>
+                                <p class="mt-1 text-sm leading-5 text-gray-500 truncate">Find what people use</p>
                             </div>
                             <img class="flex-shrink-0 w-12 h-12 bg-gray-300 rounded-full" src="~/assets/images/home/binndle-logo.png" alt />
                         </div>

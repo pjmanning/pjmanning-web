@@ -135,7 +135,7 @@
                                         <span class="ml-3">Website</span>
                                     </a>
                                 </div>
-                                <div class="flex flex-1 w-0 -ml-px border-r border-gray-200">
+                                <!-- <div class="flex flex-1 w-0 -ml-px border-r border-gray-200">
                                     <a href="https://itunes.apple.com/app/id1318032776" target="_blank" class="relative inline-flex items-center justify-center flex-1 w-0 py-4 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out border border-transparent rounded-br-lg hover:text-gray-500 focus:outline-none focus:shadow-outline-blue focus:z-10">
                                         <svg class="w-5 h-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
                                             <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -150,7 +150,7 @@
                                         </svg>
                                         <span class="ml-3">Android</span>
                                     </a>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </li>

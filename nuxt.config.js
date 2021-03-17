@@ -64,6 +64,9 @@ export default {
             lang: 'en',
             name: 'PJ Manning',
         },
+        icon: {
+            fileName: 'icon.png?v1',
+        },
     },
     googleAnalytics: {
         id: process.env.GOOGLE_ANALYTICS_ID,

@@ -7,6 +7,8 @@
                     <a href="/rss.xml" class="font-normal text-white hover:text-gray-400">RSS Feed</a>
                     |
                     <a href="/sitemap.xml" class="font-normal text-white hover:text-gray-400">Sitemap</a>
+                    |
+                    <a href="https://www.getrevue.co/profile/pjmanning" target="_blank" class="font-normal text-white hover:text-gray-400"> Newsletter </a>
                 </div>
             </div>
             <ul class="flex items-center">

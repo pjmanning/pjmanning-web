@@ -56,6 +56,7 @@ export default {
         '@aceforth/nuxt-netlify',
         '@nuxtjs/sitemap',
         'vue-scrollto/nuxt',
+        'vue-plausible',
     ],
 
     // PWA module configuration: https://go.nuxtjs.dev/pwa

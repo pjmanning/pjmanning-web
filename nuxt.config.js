@@ -71,6 +71,10 @@ export default {
     googleAnalytics: {
         id: process.env.GOOGLE_ANALYTICS_ID,
     },
+    plausible: {
+        domain: 'pjmanning.dev',
+        apiHost: 'https://pjmanning.dev/stats', // Reports events to https://<yourdomain.com>/stats/api/event
+    },
     facebook: {
         /* module options */
         track: 'PageView',
@@ -78,7 +82,7 @@ export default {
         disabled: false,
     },
     sitemap: {
-        hostname: process.env.BASE_URL || 'https://pjmanning.Dev',
+        hostname: process.env.BASE_URL || 'https://pjmanning.dev',
         routes: async () => {
             const { $content } = require('@nuxt/content')
 

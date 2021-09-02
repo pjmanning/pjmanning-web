@@ -73,7 +73,7 @@ export default {
     },
     plausible: {
         domain: 'pjmanning.dev',
-        apiHost: 'https://pjmanning.dev/stats', // Reports events to https://<yourdomain.com>/stats/api/event
+        // apiHost: 'https://pjmanning.dev/stats', // Reports events to https://<yourdomain.com>/stats/api/event
     },
     facebook: {
         /* module options */

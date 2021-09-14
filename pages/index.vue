@@ -17,7 +17,7 @@
         <!-- blurb  -->
         <div class="max-w-3xl mx-4 sm:mx-auto">
             <p class="text-lg sm:text-xl">
-                I believe the next wave of great of advances in human society with come from combining
+                I believe the next wave of great of advances in human society will come from combining
                 <strong>technology</strong>, <strong>community</strong>, and <strong>sustainability</strong>. I'm currently working on a few independent and open-sourced projects based on these pillars.
             </p>
 

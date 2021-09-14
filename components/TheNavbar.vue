@@ -5,10 +5,11 @@
         <nav class="bg-white shadow">
             <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div class="flex justify-between h-20">
-                    <nuxt-link to="/" class="flex items-center text-3xl text-gray-800 uppercase font-marker hover:text-gray-600">PJ MANNING</nuxt-link>
+                    <nuxt-link to="/" class="flex items-center text-3xl text-gray-800 uppercase font-marker hover:text-gray-600">PJ&nbsp;MANNING</nuxt-link>
                     <div class="flex">
                         <div class="hidden sm:ml-6 sm:flex sm:mr-auto sm:space-x-8">
                             <!-- Current: "border-blue-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
+                            <nuxt-link to="/work" class="inline-flex items-center px-1 pt-1 font-medium text-gray-800 uppercase hover:text-gray-600"> Work </nuxt-link>
                             <a v-if="$route.path === '/'" href="/#projects" v-scroll-to="'#projects'" class="inline-flex items-center px-1 pt-1 font-medium text-gray-800 uppercase hover:text-gray-600"> Projects </a>
                             <nuxt-link v-else to="/#projects" v-scroll-to="'#projects'" class="inline-flex items-center px-1 pt-1 font-medium text-gray-800 uppercase hover:text-gray-600"> Projects </nuxt-link>
                             <a v-if="$route.path === '/'" href="/#about" v-scroll-to="'#about'" class="inline-flex items-center px-1 pt-1 font-medium text-gray-800 uppercase hover:text-gray-600"> About </a>
@@ -37,6 +38,7 @@
             <div class="sm:hidden" :class="isMenuOpen ? 'block' : 'hidden'">
                 <div class="pt-2 pb-3 space-y-1">
                     <!-- Current: "bg-blue-50 border-blue-500 text-blue-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" -->
+                    <nuxt-link to="/work" @click.native="isMenuOpen = !isMenuOpen" class="block py-2 pl-3 pr-4 text-base font-medium text-gray-500 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700">Work</nuxt-link>
                     <a v-if="$route.path === '/'" href="/#projects" v-scroll-to="'#projects'" @click="isMenuOpen = !isMenuOpen" class="block py-2 pl-3 pr-4 text-base font-medium text-gray-500 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700">Projects</a>
                     <nuxt-link v-else to="/#projects" v-scroll-to="'#projects'" class="block py-2 pl-3 pr-4 text-base font-medium text-gray-500 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700">Projects</nuxt-link>
                     <a v-if="$route.path === '/'" href="/#about" v-scroll-to="'#about'" @click="isMenuOpen = !isMenuOpen" class="block py-2 pl-3 pr-4 text-base font-medium text-gray-500 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700">About</a>

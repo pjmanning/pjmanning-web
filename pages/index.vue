@@ -35,14 +35,15 @@
                 <div class="w-full border-t border-gray-300"></div>
             </div>
             <div class="relative flex justify-center">
-                <span class="px-3 text-lg font-medium text-gray-900 bg-white"> Projects </span>
+                <span class="px-3 text-lg font-medium text-gray-900 bg-white"> Indie Projects </span>
             </div>
         </div>
         <!-- end divider  -->
 
         <!-- projects  -->
         <div class="overflow-x-hidden">
-            <div class="relative max-w-3xl py-16 mx-4 mb-16 text-xl border-b border-gray-300 sm:mx-auto">
+            <p class="max-w-3xl mx-auto mt-4 text-sm font-medium text-center text-gray-600">Independent, bootstrapped companies I'm currently building...</p>
+            <div class="relative max-w-3xl pt-8 pb-10 mx-4 mb-16 text-xl border-b border-gray-300 sm:mx-auto">
                 <ul class="grid grid-cols-1 gap-6 sm:grid-cols-2">
                     <!-- GLASSY -->
                     <!-- <li class="col-span-1 border border-gray-100 rounded-lg shadow bg-background-card">
@@ -318,7 +319,7 @@
                         <div>
                             <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
                             <div class="mt-1">
-                                <input id="name" type="text" name="name" placeholder="Jon Snow" required autocomplete="given-name" class="block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" />
+                                <input id="name" type="text" name="name" placeholder="Elon Musk" required autocomplete="given-name" class="block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" />
                             </div>
                         </div>
                         <div>
@@ -330,7 +331,7 @@
                         <div class="sm:col-span-2">
                             <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
                             <div class="mt-1">
-                                <textarea id="message" name="message" rows="5" required placeholder="Let's build some cool shit together..." class="block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"></textarea>
+                                <textarea id="message" name="message" rows="5" required placeholder="Can you build me a base on Mars..." class="block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"></textarea>
                             </div>
                         </div>
 

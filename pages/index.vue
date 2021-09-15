@@ -42,7 +42,7 @@
 
         <!-- projects  -->
         <div class="overflow-x-hidden">
-            <p class="max-w-3xl mx-auto mt-4 text-sm font-medium text-center text-gray-600">Independent, bootstrapped companies I'm currently building...</p>
+            <p class="max-w-3xl mx-auto mt-4 text-sm font-medium text-center text-gray-600">Independent, bootstrapped companies&nbsp;I'm&nbsp;currently&nbsp;building...</p>
             <div class="relative max-w-3xl pt-8 pb-10 mx-4 mb-16 text-xl border-b border-gray-300 sm:mx-auto">
                 <ul class="grid grid-cols-1 gap-6 sm:grid-cols-2">
                     <!-- GLASSY -->

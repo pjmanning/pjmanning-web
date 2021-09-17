@@ -46,7 +46,7 @@
             <div class="relative max-w-3xl pt-8 pb-10 mx-4 mb-16 text-xl border-b border-gray-300 sm:mx-auto">
                 <ul class="grid grid-cols-1 gap-6 sm:grid-cols-2">
                     <!-- GLASSY -->
-                    <!-- <li class="col-span-1 border border-gray-100 rounded-lg shadow bg-background-card">
+                    <li class="col-span-1 border border-gray-100 rounded-lg shadow bg-background-card">
                         <div class="flex items-center justify-between w-full p-6 space-x-6">
                             <div class="flex-1 truncate">
                                 <div class="flex items-center space-x-3">
@@ -59,7 +59,7 @@
                         <div class="bg-gray-100 border-t border-gray-200 rounded-b-lg">
                             <div class="flex -mt-px">
                                 <div class="flex flex-1 w-0 border-r border-gray-200">
-                                    <a href="https://glassy.company" target="_blank" class="relative inline-flex items-center justify-center flex-1 w-0 py-4 -mr-px text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out border border-transparent rounded-bl-lg hover:text-gray-500 focus:outline-none focus:shadow-outline-blue focus:z-10">
+                                    <a href="https://glassy.so" target="_blank" class="relative inline-flex items-center justify-center flex-1 w-0 py-4 -mr-px text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out border border-transparent rounded-bl-lg hover:text-gray-500 focus:outline-none focus:shadow-outline-blue focus:z-10">
                                         <svg class="w-5 h-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
                                             <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z" />
                                         </svg>
@@ -68,7 +68,7 @@
                                 </div>
                             </div>
                         </div>
-                    </li> -->
+                    </li>
 
                     <!-- BINNDLE -->
                     <li class="col-span-1 border border-gray-100 rounded-lg shadow bg-background-card">

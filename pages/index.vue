@@ -257,6 +257,8 @@
                     </li>
                 </ul>
 
+                <p class="max-w-3xl mx-auto mt-12 text-sm font-medium text-center text-gray-600">There's plenty that didn't make it...<nuxt-link to="/graveyard" class="text-blue-600">Check&nbsp;out&nbsp;the&nbsp;graveyard&nbsp;here.</nuxt-link></p>
+
                 <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
                     <svg width="170px" height="170px">
                         <use xlink:href="#dots-triangle" />

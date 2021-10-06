@@ -8,9 +8,9 @@ tags: travel
 author: pjmanning
 ---
 
-<div class="w-full flex flex-row items-center">
+<div class="flex flex-row items-center w-full">
 <img src="https://firebasestorage.googleapis.com/v0/b/travel-developer.appspot.com/o/posts%2Ftravel-and-surf-jobs%2Fapp-icon.png?alt=media&token=4517196c-c50e-42ba-9a55-34c0cfb26941" >
-<p class="text-md leading-6 md:leading-8 mx-8 md:mr-4 md:ml-0">This post is brought to you by <a href="https://wavetrottersurf.com" target="_blank">Wavetrotter</a> - a surf travel platform.  Wavetrotter gives you all the information you need to plan your next surf trip.  Get alerts, check historical data, and book your flight for your next surf trip.</p>
+<p class="mx-8 leading-6 text-md md:leading-8 md:mr-4 md:ml-0">This post is brought to you by <a href="https://swellpirate.com" target="_blank">SwellPirate</a> - a surf travel platform.  SwellPirate gives you all the information you need to plan your next surf trip.  Get alerts, check historical data, and book your flight for your next surf trip.</p>
 </div>
 
 [The industrial revolution is over.](https://levels.io/future-of-digital-nomads/)

@@ -1,6 +1,8 @@
 ---
 title: Yewwwtoob
 type: podcast
+started: 2019
+tagline: Average Joe surf podcast
 description: Surf podcast I started with my friends.  It was going really good and then I flew to Bali and got caught there for 2 years during COVID ;)
 slug: https://yewwwtoob.com/
 image: https://firebasestorage.googleapis.com/v0/b/travel-developer.appspot.com/o/work%2Fkooks.jpg?alt=media&token=e64e1a38-9473-4f3a-b06f-7291fe36cd3c

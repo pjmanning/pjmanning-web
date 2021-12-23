@@ -10,20 +10,28 @@
                     <p class="max-w-2xl mx-auto mt-3 text-xl leading-7 text-gray-500 sm:mt-4">The shit that didn't quite work out... 💀 RIP</p>
                 </div>
 
-                <div class="grid max-w-lg gap-5 mx-auto mt-12 lg:grid-cols-3 lg:max-w-none">
-                    <div v-for="project in projects" :key="project.title" class="flex flex-col overflow-hidden rounded-lg shadow-lg">
-                        <!-- <div class="flex-shrink-0">
-                            <img class="object-cover w-full h-48" :src="project.image" :alt="project.title" />
-                        </div> -->
-                        <div class="flex flex-col justify-between flex-1 p-6 bg-white">
-                            <div class="flex-1">
-                                <p class="text-sm font-medium text-indigo-600 capitalize">
-                                    {{ project.type }}
-                                </p>
-                                <div class="block mt-2">
-                                    <p class="text-xl font-semibold text-gray-900">{{ project.title }}</p>
-                                    <p class="mt-3 text-base text-gray-500">{{ project.description }}</p>
-                                </div>
+                <div class="flex flex-col">
+                    <div class="mt-12 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+                        <div class="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8">
+                            <div class="overflow-hidden border-b border-gray-200 shadow sm:rounded-lg">
+                                <table class="min-w-full divide-y divide-gray-200">
+                                    <thead class="bg-gray-50">
+                                        <tr>
+                                            <th scope="col" class="px-6 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Project</th>
+                                            <th scope="col" class="px-6 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Type</th>
+                                            <th scope="col" class="px-6 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Description</th>
+                                            <th scope="col" class="px-6 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Started</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr v-for="project in projects" :key="project.title" class="odd:bg-white even:bg-gray-50">
+                                            <td class="px-6 py-4 text-sm font-medium text-gray-900 whitespace-nowrap">{{ project.title }}</td>
+                                            <td class="px-6 py-4 text-sm text-indigo-600 capitalize whitespace-nowrap">{{ project.type }}</td>
+                                            <td class="px-6 py-4 text-sm text-gray-500 whitespace-nowrap">{{ project.tagline }}</td>
+                                            <td class="px-6 py-4 text-sm text-gray-500 whitespace-nowrap">{{ project.started }}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
@@ -36,7 +44,7 @@
 <script>
 export default {
     async fetch() {
-        this.projects = await this.$content('graveyard').sortBy('createdAt', 'desc').fetch()
+        this.projects = await this.$content('graveyard').sortBy('started').fetch()
     },
 
     data() {

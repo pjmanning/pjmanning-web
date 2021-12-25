@@ -44,7 +44,7 @@
 <script>
 export default {
     async fetch() {
-        this.projects = await this.$content('graveyard').sortBy('started').fetch()
+        this.projects = await this.$content('graveyard').sortBy('started', 'desc').fetch()
     },
 
     data() {

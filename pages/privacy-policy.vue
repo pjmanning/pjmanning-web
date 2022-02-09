@@ -1,5 +1,5 @@
 <template>
-    <div class="prose mx-auto my-20 px-4 max-w-5xl">
+    <div class="prose mx-auto my-20 max-w-5xl px-4">
         <h1 class="pb-4 text-center text-5xl">Privacy Policy's</h1>
         <div id="doodDevelopments">
             <h2>doodDevelopments & PJManning.dev's Policy</h2>

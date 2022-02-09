@@ -1,5 +1,5 @@
 <template>
-    <div class="mx-auto px-4 max-w-5xl">
+    <div class="mx-auto max-w-5xl px-4">
         <h1 class="pb-4 text-center text-5xl">Earnings & Liability Disclaimers</h1>
         <p>
             These disclaimers are valid for doodDevelopments, LLC.<br /><br />This site is solely for informational and educational purposes. Application of the techniques, ideas, and suggestions presented in this site is done at the reader’s sole discretion and risk. The author and publisher of this site make no representations or warranties of any kind with respect to this site and its contents.<br /><br />When addressing financial matters in any of our Sites, videos, newsletters or other

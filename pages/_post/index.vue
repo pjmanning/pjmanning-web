@@ -1,14 +1,14 @@
 <template>
     <div>
         <div class="relative h-96 bg-gradient-to-b from-transparent to-black md:h-128">
-            <img class="w-full h-full object-cover" :src="article.image" :alt="article.alt" />
-            <div class="absolute z-10 top-0 w-full h-full bg-gradient-to-b from-transparent to-black"></div>
-            <h1 class="absolute z-10 bottom-0 mb-8 px-4 text-white text-4xl font-thin leading-9 sm:ml-8 sm:px-0 md:text-5xl">
+            <img class="h-full w-full object-cover" :src="article.image" :alt="article.alt" />
+            <div class="absolute top-0 z-10 h-full w-full bg-gradient-to-b from-transparent to-black"></div>
+            <h1 class="absolute bottom-0 z-10 mb-8 px-4 text-4xl font-thin leading-9 text-white sm:ml-8 sm:px-0 md:text-5xl">
                 {{ article.title }}
             </h1>
         </div>
 
-        <NuxtContent class="prose lg:prose-lg xl:prose-xl mx-auto my-12 px-4 sm:my-24" :document="article" />
+        <NuxtContent class="prose mx-auto my-12 px-4 sm:my-24 lg:prose-lg xl:prose-xl" :document="article" />
 
         <author :author="author[0]" />
     </div>

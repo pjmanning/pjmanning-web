@@ -12,7 +12,7 @@
                 <div class="grid max-w-lg gap-5 mx-auto my-12 lg:grid-cols-3 lg:max-w-none">
                     <nuxt-link v-for="post in posts" :key="post.title" :to="post.slug" class="flex flex-col overflow-hidden transition-all duration-300 ease-in-out transform rounded-lg shadow-lg hover:shadow-2xl hover:-translate-y-2">
                         <div class="flex-shrink-0">
-                            <img class="object-cover w-full h-48" :src="post.image" :alt="post.title" />
+                            <img class="object-cover w-full h-48 min-h-[48] bg-gray-300" :src="post.image" :alt="post.title" />
                         </div>
                         <div class="flex flex-col justify-between flex-1 p-6 bg-white">
                             <div class="flex-1">
@@ -31,7 +31,7 @@
 
                             <div v-if="postAuthor(post.author)" class="flex items-center mt-6">
                                 <div class="flex-shrink-0">
-                                    <img class="w-10 h-10 rounded-full" :src="postAuthor(post.author).image" alt="" />
+                                    <img class="w-10 h-10 bg-gray-300 rounded-full bg-animate-pulse" :src="postAuthor(post.author).image" :alt="postAuthor(post.author).name" />
                                 </div>
                                 <div class="ml-3">
                                     <p class="text-sm font-medium leading-5 text-gray-900">

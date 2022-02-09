@@ -1,6 +1,6 @@
 <template>
-    <div class="max-w-5xl px-4 mx-auto">
-        <h1 class="pb-4 text-5xl text-center">Earnings & Liability Disclaimers</h1>
+    <div class="mx-auto px-4 max-w-5xl">
+        <h1 class="pb-4 text-center text-5xl">Earnings & Liability Disclaimers</h1>
         <p>
             These disclaimers are valid for doodDevelopments, LLC.<br /><br />This site is solely for informational and educational purposes. Application of the techniques, ideas, and suggestions presented in this site is done at the reader’s sole discretion and risk. The author and publisher of this site make no representations or warranties of any kind with respect to this site and its contents.<br /><br />When addressing financial matters in any of our Sites, videos, newsletters or other
             content, we’ve taken every effort to ensure we accurately represent our programs and their ability to grow your business and improve your life. However, there is no guarantee that you will get any results or generate revenue for your business using any of our ideas, tools, strategies or recommendations. Nothing on our Sites is a promise or guarantee of earnings. Your level of success in attaining similar results is dependent upon a factors including your skill, knowledge, ability,

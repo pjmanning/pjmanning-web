@@ -1,29 +1,29 @@
 <template>
     <div class="mb-8">
-        <div class="relative px-4 pt-16 sm:px-6 lg:px-8">
+        <div class="relative pt-16 px-4 sm:px-6 lg:px-8">
             <div class="absolute inset-0">
-                <div class="bg-white h-1/3 sm:h-2/3"></div>
+                <div class="h-1/3 bg-white sm:h-2/3"></div>
             </div>
             <div class="relative mx-auto max-w-7xl">
                 <div class="text-center">
-                    <h2 class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">News & Updates</h2>
-                    <p class="max-w-2xl mx-auto mt-3 text-xl leading-7 text-gray-500 sm:mt-4">Projects I'm working on, where I'm working and more...</p>
+                    <h2 class="text-gray-900 text-3xl font-extrabold tracking-tight leading-9 sm:text-4xl sm:leading-10">News & Updates</h2>
+                    <p class="mt-3 mx-auto max-w-2xl text-gray-500 text-xl leading-7 sm:mt-4">Projects I'm working on, where I'm working and more...</p>
                 </div>
-                <div class="grid max-w-lg gap-5 mx-auto my-12 lg:grid-cols-3 lg:max-w-none">
-                    <nuxt-link v-for="post in posts" :key="post.title" :to="post.slug" class="flex flex-col overflow-hidden transition-all duration-300 ease-in-out transform rounded-lg shadow-lg hover:shadow-2xl hover:-translate-y-2">
+                <div class="grid gap-5 mx-auto my-12 max-w-lg lg:grid-cols-3 lg:max-w-none">
+                    <nuxt-link v-for="post in posts" :key="post.title" :to="post.slug" class="flex flex-col rounded-lg hover:shadow-2xl shadow-lg overflow-hidden transform hover:-translate-y-2 transition-all duration-300 ease-in-out">
                         <div class="flex-shrink-0">
-                            <img class="object-cover w-full h-48 min-h-[48] bg-gray-300" :src="post.image" :alt="post.title" />
+                            <img class="min-h-[48] w-full h-48 bg-gray-300 object-cover" :src="post.image" :alt="post.title" />
                         </div>
-                        <div class="flex flex-col justify-between flex-1 p-6 bg-white">
+                        <div class="flex flex-1 flex-col justify-between p-6 bg-white">
                             <div class="flex-1">
-                                <p class="text-sm font-medium leading-5 uppercase text-secondary">
+                                <p class="text-secondary text-sm font-medium leading-5 uppercase">
                                     {{ post.tags }}
                                 </p>
                                 <a href="#" class="block">
-                                    <h3 class="mt-2 text-xl font-semibold leading-7 text-gray-900">
+                                    <h3 class="mt-2 text-gray-900 text-xl font-semibold leading-7">
                                         {{ post.title }}
                                     </h3>
-                                    <p class="mt-3 text-base leading-6 text-gray-500">
+                                    <p class="mt-3 text-gray-500 text-base leading-6">
                                         {{ post.description }}
                                     </p>
                                 </a>
@@ -31,13 +31,13 @@
 
                             <div v-if="postAuthor(post.author)" class="flex items-center mt-6">
                                 <div class="flex-shrink-0">
-                                    <img class="w-10 h-10 bg-gray-300 rounded-full bg-animate-pulse" :src="postAuthor(post.author).image" :alt="postAuthor(post.author).name" />
+                                    <img class="bg-animate-pulse w-10 h-10 bg-gray-300 rounded-full" :src="postAuthor(post.author).image" :alt="postAuthor(post.author).name" />
                                 </div>
                                 <div class="ml-3">
-                                    <p class="text-sm font-medium leading-5 text-gray-900">
+                                    <p class="text-gray-900 text-sm font-medium leading-5">
                                         {{ postAuthor(post.author).name }}
                                     </p>
-                                    <div class="flex text-sm leading-5 text-gray-500">
+                                    <div class="flex text-gray-500 text-sm leading-5">
                                         <time :datetime="post.createdAt">
                                             {{ $moment(post.createdAt).format('MMMM Do YYYY') }}
                                         </time>

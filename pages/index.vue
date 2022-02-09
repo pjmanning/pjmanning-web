@@ -1,11 +1,11 @@
 <template>
     <div>
         <!-- hero -->
-        <div class="flex flex-col justify-between max-w-3xl py-12 mx-4 sm:py-24 sm:mx-auto sm:flex-row">
-            <div class="w-full text-4xl font-bold text-center md:w-full md:-ml-12 md:mr-8 md:mt-5 md:text-5xl sm:w-3/5 sm:text-left">
+        <div class="flex flex-col justify-between mx-4 py-12 max-w-3xl sm:flex-row sm:mx-auto sm:py-24">
+            <div class="w-full text-center text-4xl font-bold sm:w-3/5 sm:text-left md:-ml-12 md:mr-8 md:mt-5 md:w-full md:text-5xl">
                 <div class="leading-tight">
                     Hey, I'm PJ. I&nbsp;build&nbsp;stuff...
-                    <span class="leading-tight text-blue-400"> <br />and spend a lot of time in the water. </span>
+                    <span class="text-blue-400 leading-tight"> <br />and spend a lot of time in the water. </span>
                 </div>
             </div>
             <div class="mt-8 sm:mt-0">
@@ -15,7 +15,7 @@
         <!-- end hero -->
 
         <!-- blurb  -->
-        <div class="max-w-3xl mx-4 sm:mx-auto">
+        <div class="mx-4 max-w-3xl sm:mx-auto">
             <p class="text-lg sm:text-xl">
                 I believe the next wave of great of advances in human society will come from combining
                 <strong>technology</strong>, <strong>community</strong>, and <strong>sustainability</strong>. I'm currently working on a few independent and open-sourced projects based on these pillars.
@@ -30,36 +30,36 @@
         <!-- end blurb  -->
 
         <!-- divider  -->
-        <div class="relative max-w-3xl mx-auto mt-12" id="projects">
+        <div class="relative mt-12 mx-auto max-w-3xl" id="projects">
             <div class="absolute inset-0 flex items-center" aria-hidden="true">
                 <div class="w-full border-t border-gray-300"></div>
             </div>
             <div class="relative flex justify-center">
-                <span class="px-3 text-lg font-medium text-gray-900 bg-white"> Indie Projects </span>
+                <span class="px-3 text-gray-900 text-lg font-medium bg-white"> Indie Projects </span>
             </div>
         </div>
         <!-- end divider  -->
 
         <!-- projects  -->
         <div class="overflow-x-hidden">
-            <p class="max-w-3xl mx-auto mt-4 text-sm font-medium text-center text-gray-600">Independent, bootstrapped companies&nbsp;I'm&nbsp;currently&nbsp;building...</p>
-            <div class="relative max-w-3xl pt-8 pb-10 mx-4 mb-16 text-xl border-b border-gray-300 sm:mx-auto">
-                <ul class="grid grid-cols-1 gap-6 sm:grid-cols-2">
+            <p class="mt-4 mx-auto max-w-3xl text-center text-gray-600 text-sm font-medium">Independent, bootstrapped companies&nbsp;I'm&nbsp;currently&nbsp;building...</p>
+            <div class="relative mb-16 mx-4 pb-10 pt-8 max-w-3xl text-xl border-b border-gray-300 sm:mx-auto">
+                <ul class="grid gap-6 grid-cols-1 sm:grid-cols-2">
                     <!-- GLASSY -->
-                    <li class="col-span-1 border border-gray-100 rounded-lg shadow bg-background-card">
-                        <div class="flex items-center justify-between w-full p-6 space-x-6">
+                    <li class="bg-background-card col-span-1 border border-gray-100 rounded-lg shadow">
+                        <div class="flex items-center justify-between p-6 w-full space-x-6">
                             <div class="flex-1 truncate">
                                 <div class="flex items-center space-x-3">
-                                    <h3 class="text-xl font-medium leading-5 text-gray-900 truncate">Glassy</h3>
+                                    <h3 class="text-gray-900 text-xl font-medium leading-5 truncate">Glassy</h3>
                                 </div>
-                                <p class="mt-1 text-sm leading-5 text-gray-500 truncate">Make your company more transparent</p>
+                                <p class="mt-1 text-gray-500 text-sm leading-5 truncate">Make your company more transparent</p>
                             </div>
                             <img class="flex-shrink-0 w-12 h-12 bg-gray-300 rounded-full" src="~/assets/images/home/glassy-logo-whitebg.png" alt />
                         </div>
                         <div class="bg-gray-100 border-t border-gray-200 rounded-b-lg">
                             <div class="flex -mt-px">
                                 <div class="flex flex-1 w-0 border-r border-gray-200">
-                                    <a href="https://glassy.so" target="_blank" class="relative inline-flex items-center justify-center flex-1 w-0 py-4 -mr-px text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out border border-transparent rounded-bl-lg hover:text-gray-500 focus:outline-none focus:shadow-outline-blue focus:z-10">
+                                    <a href="https://glassy.so" target="_blank" class="focus:shadow-outline-blue relative focus:z-10 inline-flex flex-1 items-center justify-center -mr-px py-4 w-0 hover:text-gray-500 text-gray-700 text-sm font-medium leading-5 border border-transparent rounded-bl-lg focus:outline-none transition duration-150 ease-in-out">
                                         <svg class="w-5 h-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
                                             <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z" />
                                         </svg>
@@ -71,20 +71,20 @@
                     </li>
 
                     <!-- SwellPirate -->
-                    <li class="col-span-1 border border-gray-100 rounded-lg shadow bg-background-card">
-                        <div class="flex items-center justify-between w-full p-6 space-x-6">
+                    <li class="bg-background-card col-span-1 border border-gray-100 rounded-lg shadow">
+                        <div class="flex items-center justify-between p-6 w-full space-x-6">
                             <div class="flex-1 truncate">
                                 <div class="flex items-center space-x-3">
-                                    <h3 class="text-xl font-medium leading-5 text-gray-900 truncate">SwellPirate</h3>
+                                    <h3 class="text-gray-900 text-xl font-medium leading-5 truncate">SwellPirate</h3>
                                 </div>
-                                <p class="mt-1 text-sm leading-5 text-gray-500 truncate">The best surf spots around the world</p>
+                                <p class="mt-1 text-gray-500 text-sm leading-5 truncate">The best surf spots around the world</p>
                             </div>
                             <img class="flex-shrink-0 w-12 h-12 bg-gray-300" src="~/assets/images/home/swellpirate-logo.png" alt="swellpirate" />
                         </div>
                         <div class="bg-gray-100 border-t border-gray-200 rounded-b-lg">
                             <div class="flex -mt-px">
                                 <div class="flex flex-1 w-0 border-r border-gray-200">
-                                    <a href="https://swellpirate.com" target="_blank" class="relative inline-flex items-center justify-center flex-1 w-0 py-4 -mr-px text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out border border-transparent rounded-bl-lg hover:text-gray-500 focus:outline-none focus:shadow-outline-blue focus:z-10">
+                                    <a href="https://swellpirate.com" target="_blank" class="focus:shadow-outline-blue relative focus:z-10 inline-flex flex-1 items-center justify-center -mr-px py-4 w-0 hover:text-gray-500 text-gray-700 text-sm font-medium leading-5 border border-transparent rounded-bl-lg focus:outline-none transition duration-150 ease-in-out">
                                         <svg class="w-5 h-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
                                             <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z" />
                                         </svg>
@@ -112,20 +112,20 @@
                     </li>
 
                     <!-- BINNDLE -->
-                    <li class="col-span-1 border border-gray-100 rounded-lg shadow bg-background-card">
-                        <div class="flex items-center justify-between w-full p-6 space-x-6">
+                    <li class="bg-background-card col-span-1 border border-gray-100 rounded-lg shadow">
+                        <div class="flex items-center justify-between p-6 w-full space-x-6">
                             <div class="flex-1 truncate">
                                 <div class="flex items-center space-x-3">
-                                    <h3 class="text-xl font-medium leading-5 text-gray-900 truncate">Binndle</h3>
+                                    <h3 class="text-gray-900 text-xl font-medium leading-5 truncate">Binndle</h3>
                                 </div>
-                                <p class="mt-1 text-sm leading-5 text-gray-500 truncate">Find what people use</p>
+                                <p class="mt-1 text-gray-500 text-sm leading-5 truncate">Find what people use</p>
                             </div>
                             <img class="flex-shrink-0 w-12 h-12 bg-gray-300 rounded-full" src="~/assets/images/home/binndle-logo.png" alt />
                         </div>
                         <div class="bg-gray-100 border-t border-gray-200 rounded-b-lg">
                             <div class="flex -mt-px">
                                 <div class="flex flex-1 w-0 border-r border-gray-200">
-                                    <a href="https://binndle.com" target="_blank" class="relative inline-flex items-center justify-center flex-1 w-0 py-4 -mr-px text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out border border-transparent rounded-bl-lg hover:text-gray-500 focus:outline-none focus:shadow-outline-blue focus:z-10">
+                                    <a href="https://binndle.com" target="_blank" class="focus:shadow-outline-blue relative focus:z-10 inline-flex flex-1 items-center justify-center -mr-px py-4 w-0 hover:text-gray-500 text-gray-700 text-sm font-medium leading-5 border border-transparent rounded-bl-lg focus:outline-none transition duration-150 ease-in-out">
                                         <svg class="w-5 h-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
                                             <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z" />
                                         </svg>
@@ -137,20 +137,20 @@
                     </li>
 
                     <!-- ANIMALI -->
-                    <li class="col-span-1 border border-gray-100 rounded-lg shadow bg-background-card">
-                        <div class="flex items-center justify-between w-full p-6 space-x-6">
+                    <li class="bg-background-card col-span-1 border border-gray-100 rounded-lg shadow">
+                        <div class="flex items-center justify-between p-6 w-full space-x-6">
                             <div class="flex-1 truncate">
                                 <div class="flex items-center space-x-3">
-                                    <h3 class="text-xl font-medium leading-5 text-gray-900 truncate">Animali</h3>
+                                    <h3 class="text-gray-900 text-xl font-medium leading-5 truncate">Animali</h3>
                                 </div>
-                                <p class="mt-1 text-sm leading-5 text-gray-500 truncate">Animal conservation platform</p>
+                                <p class="mt-1 text-gray-500 text-sm leading-5 truncate">Animal conservation platform</p>
                             </div>
                             <img class="flex-shrink-0 w-12 h-12 bg-gray-300 rounded-full" src="~/assets/images/home/animali-logo.png" alt />
                         </div>
                         <div class="bg-gray-100 border-t border-gray-200 rounded-b-lg">
                             <div class="flex -mt-px">
                                 <div class="flex flex-1 w-0 border-r border-gray-200">
-                                    <a href="https://animali.life" target="_blank" class="relative inline-flex items-center justify-center flex-1 w-0 py-4 -mr-px text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out border border-transparent rounded-bl-lg hover:text-gray-500 focus:outline-none focus:shadow-outline-blue focus:z-10">
+                                    <a href="https://animali.life" target="_blank" class="focus:shadow-outline-blue relative focus:z-10 inline-flex flex-1 items-center justify-center -mr-px py-4 w-0 hover:text-gray-500 text-gray-700 text-sm font-medium leading-5 border border-transparent rounded-bl-lg focus:outline-none transition duration-150 ease-in-out">
                                         <svg class="w-5 h-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
                                             <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z" />
                                         </svg>
@@ -259,20 +259,20 @@
                     </li> -->
 
                     <!-- STARTSMALL  -->
-                    <li class="col-span-1 border border-gray-100 rounded-lg shadow bg-background-card">
-                        <div class="flex items-center justify-between w-full p-6 space-x-6">
+                    <li class="bg-background-card col-span-1 border border-gray-100 rounded-lg shadow">
+                        <div class="flex items-center justify-between p-6 w-full space-x-6">
                             <div class="flex-1 truncate">
                                 <div class="flex items-center space-x-3">
-                                    <h3 class="text-xl font-medium leading-5 text-gray-900 truncate">#startsmall</h3>
+                                    <h3 class="text-gray-900 text-xl font-medium leading-5 truncate">#startsmall</h3>
                                 </div>
-                                <p class="mt-1 text-sm leading-5 text-gray-500 truncate">Jack Dorsey's $1B COVID-19 relief fund</p>
+                                <p class="mt-1 text-gray-500 text-sm leading-5 truncate">Jack Dorsey's $1B COVID-19 relief fund</p>
                             </div>
                             <img class="flex-shrink-0 w-12 h-12 bg-gray-300 rounded-full" src="~/assets/images/home/startsmall-logo.jpg" alt />
                         </div>
                         <div class="bg-gray-100 border-t border-gray-200 rounded-b-lg">
                             <div class="flex -mt-px">
                                 <div class="flex flex-1 w-0 border-r border-gray-200">
-                                    <a href="https://startsmall.llc/" target="_blank" class="relative inline-flex items-center justify-center flex-1 w-0 py-4 -mr-px text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out border border-transparent rounded-bl-lg hover:text-gray-500 focus:outline-none focus:shadow-outline-blue focus:z-10">
+                                    <a href="https://startsmall.llc/" target="_blank" class="focus:shadow-outline-blue relative focus:z-10 inline-flex flex-1 items-center justify-center -mr-px py-4 w-0 hover:text-gray-500 text-gray-700 text-sm font-medium leading-5 border border-transparent rounded-bl-lg focus:outline-none transition duration-150 ease-in-out">
                                         <svg class="w-5 h-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
                                             <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z" />
                                         </svg>
@@ -284,13 +284,13 @@
                     </li>
 
                     <!-- Nana's Recipes -->
-                    <li class="col-span-1 border border-gray-100 rounded-lg shadow bg-background-card">
-                        <div class="flex items-center justify-between w-full p-6 space-x-6">
+                    <li class="bg-background-card col-span-1 border border-gray-100 rounded-lg shadow">
+                        <div class="flex items-center justify-between p-6 w-full space-x-6">
                             <div class="flex-1 truncate">
                                 <div class="flex items-center space-x-3">
-                                    <h3 class="text-xl font-medium leading-5 text-gray-900 truncate">Nana's Recipes</h3>
+                                    <h3 class="text-gray-900 text-xl font-medium leading-5 truncate">Nana's Recipes</h3>
                                 </div>
-                                <p class="mt-1 text-sm leading-5 text-gray-500 truncate">Nana Scoppetuolo's best recipes.</p>
+                                <p class="mt-1 text-gray-500 text-sm leading-5 truncate">Nana Scoppetuolo's best recipes.</p>
                             </div>
                             <img class="flex-shrink-0 w-12 h-12 bg-gray-300 rounded-md" src="~/assets/images/home/nanasrecipes-logo.png" alt="nanas recipes" />
                         </div>
@@ -304,16 +304,16 @@
                                         <span class="ml-3">Website</span>
                                     </a>
                                 </div> -->
-                                <div class="flex flex-1 w-0 -ml-px border-r border-gray-200">
-                                    <a href="https://apps.apple.com/app/nana-scoppetuolos-recipes/id1012100193?l=id" target="_blank" class="relative inline-flex items-center justify-center flex-1 w-0 py-4 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out border border-transparent rounded-br-lg hover:text-gray-500 focus:outline-none focus:shadow-outline-blue focus:z-10">
+                                <div class="flex flex-1 -ml-px w-0 border-r border-gray-200">
+                                    <a href="https://apps.apple.com/app/nana-scoppetuolos-recipes/id1012100193?l=id" target="_blank" class="focus:shadow-outline-blue relative focus:z-10 inline-flex flex-1 items-center justify-center py-4 w-0 hover:text-gray-500 text-gray-700 text-sm font-medium leading-5 border border-transparent rounded-br-lg focus:outline-none transition duration-150 ease-in-out">
                                         <svg class="w-5 h-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
                                             <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" />
                                         </svg>
                                         <span class="ml-3">iOS</span>
                                     </a>
                                 </div>
-                                <div class="flex flex-1 w-0 -ml-px">
-                                    <a href="https://play.google.com/store/apps/details?id=com.dooddevelopments.Recipe" target="_blank" class="relative inline-flex items-center justify-center flex-1 w-0 py-4 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out border border-transparent rounded-br-lg hover:text-gray-500 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 focus:z-10">
+                                <div class="flex flex-1 -ml-px w-0">
+                                    <a href="https://play.google.com/store/apps/details?id=com.dooddevelopments.Recipe" target="_blank" class="focus:shadow-outline-blue relative focus:z-10 inline-flex flex-1 items-center justify-center py-4 w-0 hover:text-gray-500 text-gray-700 text-sm font-medium leading-5 border focus:border-blue-300 border-transparent rounded-br-lg focus:outline-none transition duration-150 ease-in-out">
                                         <svg class="w-5 h-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
                                             <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" />
                                         </svg>
@@ -325,20 +325,20 @@
                     </li>
 
                     <!-- DeFacebookMe  -->
-                    <li class="col-span-1 border border-gray-100 rounded-lg shadow bg-background-card">
-                        <div class="flex items-center justify-between w-full p-6 space-x-6">
+                    <li class="bg-background-card col-span-1 border border-gray-100 rounded-lg shadow">
+                        <div class="flex items-center justify-between p-6 w-full space-x-6">
                             <div class="flex-1 truncate">
                                 <div class="flex items-center space-x-3">
-                                    <h3 class="text-xl font-medium leading-5 text-gray-900 truncate">DeFacebookMe</h3>
+                                    <h3 class="text-gray-900 text-xl font-medium leading-5 truncate">DeFacebookMe</h3>
                                 </div>
-                                <p class="mt-1 text-sm leading-5 text-gray-500 truncate">Remove Facebook from your life</p>
+                                <p class="mt-1 text-gray-500 text-sm leading-5 truncate">Remove Facebook from your life</p>
                             </div>
                             <img class="flex-shrink-0 w-12 h-12" src="~/assets/images/home/defacebookme.svg" alt="defacebookme" />
                         </div>
                         <div class="bg-gray-100 border-t border-gray-200 rounded-b-lg">
                             <div class="flex -mt-px">
                                 <div class="flex flex-1 w-0 border-r border-gray-200">
-                                    <a href="https://defacebookme.com/" target="_blank" class="relative inline-flex items-center justify-center flex-1 w-0 py-4 -mr-px text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out border border-transparent rounded-bl-lg hover:text-gray-500 focus:outline-none focus:shadow-outline-blue focus:z-10">
+                                    <a href="https://defacebookme.com/" target="_blank" class="focus:shadow-outline-blue relative focus:z-10 inline-flex flex-1 items-center justify-center -mr-px py-4 w-0 hover:text-gray-500 text-gray-700 text-sm font-medium leading-5 border border-transparent rounded-bl-lg focus:outline-none transition duration-150 ease-in-out">
                                         <svg class="w-5 h-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
                                             <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z" />
                                         </svg>
@@ -350,7 +350,7 @@
                     </li>
                 </ul>
 
-                <p class="max-w-3xl mx-auto mt-12 text-sm font-medium text-center text-gray-600">There's plenty that didn't make it...<nuxt-link to="/graveyard" class="text-blue-600">Check&nbsp;out&nbsp;the&nbsp;graveyard&nbsp;here.</nuxt-link></p>
+                <p class="mt-12 mx-auto max-w-3xl text-center text-gray-600 text-sm font-medium">There's plenty that didn't make it...<nuxt-link to="/graveyard" class="text-blue-600">Check&nbsp;out&nbsp;the&nbsp;graveyard&nbsp;here.</nuxt-link></p>
 
                 <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
                     <svg width="170px" height="170px">
@@ -362,9 +362,9 @@
         <!-- end projects  -->
 
         <!-- about me  -->
-        <div class="overflow-x-hidden border-b border-gray-200">
-            <div class="relative max-w-3xl pb-16 mx-4 text-xl get-to-know-me sm:mx-auto">
-                <h2 class="mb-6 font-bold text-center sm:text-left" id="about">A little about me...</h2>
+        <div class="border-b border-gray-200 overflow-x-hidden">
+            <div class="get-to-know-me relative mx-4 pb-16 max-w-3xl text-xl sm:mx-auto">
+                <h2 class="mb-6 text-center font-bold sm:text-left" id="about">A little about me...</h2>
 
                 <div class="absolute left-0" style="top: 50px; transform: translateX(-100%)">
                     <svg width="170px" height="170px">
@@ -374,22 +374,22 @@
 
                 <div class="flex flex-col items-center justify-between mb-8 sm:flex-row">
                     <div>
-                        <img src="~/assets/images/home/meSmallCircle.png" alt="avatar" class="w-32 h-32 mb-8 rounded-full lg:mb-0" />
+                        <img src="~/assets/images/home/meSmallCircle.png" alt="avatar" class="mb-8 w-32 h-32 rounded-full lg:mb-0" />
                     </div>
-                    <div class="flex-1 text-lg sm:text-xl sm:ml-6">Over the past 10 years, I've worked with 30+ businesses creating websites and mobile applications. I have a unique perspective having worked with the fastest growing e-commerce website in the world (Jet.com), to tracking whale sharks in the Maldives.</div>
+                    <div class="flex-1 text-lg sm:ml-6 sm:text-xl">Over the past 10 years, I've worked with 30+ businesses creating websites and mobile applications. I have a unique perspective having worked with the fastest growing e-commerce website in the world (Jet.com), to tracking whale sharks in the Maldives.</div>
                 </div>
 
                 <div class="h-48 sm:h-96">
-                    <iframe class="top-0 left-0 w-full h-full border-0" src="https://www.youtube.com/embed/FlAYtA1exRA" style="border: 0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="left-0 top-0 w-full h-full border-0" src="https://www.youtube.com/embed/FlAYtA1exRA" style="border: 0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
         <!-- end about me  -->
 
         <!-- contact form  -->
-        <div class="px-4 py-16 overflow-hidden bg-white sm:px-6 lg:px-8 lg:py-24" id="contact">
-            <div class="relative max-w-xl mx-auto">
-                <svg class="absolute transform translate-x-1/2 left-full" width="404" height="404" fill="none" viewBox="0 0 404 404" aria-hidden="true">
+        <div class="px-4 py-16 bg-white overflow-hidden sm:px-6 lg:px-8 lg:py-24" id="contact">
+            <div class="relative mx-auto max-w-xl">
+                <svg class="absolute left-full transform translate-x-1/2" width="404" height="404" fill="none" viewBox="0 0 404 404" aria-hidden="true">
                     <defs>
                         <pattern id="85737c0e-0916-41d7-917f-596dc7edfa27" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
                             <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
@@ -397,7 +397,7 @@
                     </defs>
                     <rect width="404" height="404" fill="url(#85737c0e-0916-41d7-917f-596dc7edfa27)" />
                 </svg>
-                <svg class="absolute bottom-0 transform -translate-x-1/2 right-full" width="404" height="404" fill="none" viewBox="0 0 404 404" aria-hidden="true">
+                <svg class="absolute bottom-0 right-full transform -translate-x-1/2" width="404" height="404" fill="none" viewBox="0 0 404 404" aria-hidden="true">
                     <defs>
                         <pattern id="85737c0e-0916-41d7-917f-596dc7edfa27" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
                             <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
@@ -406,32 +406,32 @@
                     <rect width="404" height="404" fill="url(#85737c0e-0916-41d7-917f-596dc7edfa27)" />
                 </svg>
                 <div class="text-center">
-                    <h2 class="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">For projects, inquiries, and/or&nbsp;beer...</h2>
+                    <h2 class="text-gray-900 text-2xl font-extrabold tracking-tight sm:text-3xl">For projects, inquiries, and/or&nbsp;beer...</h2>
                     <!-- <p class="mt-4 text-lg leading-6 text-gray-500">Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.</p> -->
                 </div>
                 <div class="mt-8">
-                    <form action="https://formspree.io/xyydaozy" method="POST" class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+                    <form action="https://formspree.io/xyydaozy" method="POST" class="grid gap-y-6 grid-cols-1 sm:gap-x-8 sm:grid-cols-2">
                         <div>
-                            <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                            <label for="name" class="block text-gray-700 text-sm font-medium">Name</label>
                             <div class="mt-1">
-                                <input id="name" type="text" name="name" placeholder="Elon Musk" required autocomplete="given-name" class="block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" />
+                                <input id="name" type="text" name="name" placeholder="Elon Musk" required autocomplete="given-name" class="block px-4 py-3 w-full border focus:border-blue-500 border-gray-300 rounded-md shadow-sm focus:ring-blue-500" />
                             </div>
                         </div>
                         <div>
-                            <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                            <label for="email" class="block text-gray-700 text-sm font-medium">Email</label>
                             <div class="mt-1">
-                                <input id="email" type="email" name="_replyto" placeholder="elon@spacex.com" required autocomplete="email" class="block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" />
+                                <input id="email" type="email" name="_replyto" placeholder="elon@spacex.com" required autocomplete="email" class="block px-4 py-3 w-full border focus:border-blue-500 border-gray-300 rounded-md shadow-sm focus:ring-blue-500" />
                             </div>
                         </div>
                         <div class="sm:col-span-2">
-                            <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                            <label for="message" class="block text-gray-700 text-sm font-medium">Message</label>
                             <div class="mt-1">
-                                <textarea id="message" name="message" rows="5" required placeholder="Can you build me a base on Mars..." class="block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"></textarea>
+                                <textarea id="message" name="message" rows="5" required placeholder="Can you build me a base on Mars..." class="block px-4 py-3 w-full border focus:border-blue-500 border-gray-300 rounded-md shadow-sm focus:ring-blue-500"></textarea>
                             </div>
                         </div>
 
                         <div class="sm:col-span-2">
-                            <button type="submit" class="inline-flex items-center justify-center w-full px-6 py-3 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">Let's chat</button>
+                            <button type="submit" class="inline-flex items-center justify-center px-6 py-3 w-full text-white text-base font-medium bg-blue-600 hover:bg-blue-700 border border-transparent rounded-md focus:outline-none shadow-sm focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Let's chat</button>
                         </div>
                     </form>
                 </div>
@@ -440,10 +440,10 @@
 
         <!-- follow me  -->
         <div class="bg-gray-100">
-            <div class="max-w-3xl py-16 pb-8 mx-auto text-xl text-center">
+            <div class="mx-auto pb-8 py-16 max-w-3xl text-center text-xl">
                 <h2 class="mb-8 text-2xl font-bold">Follow My Work!</h2>
 
-                <div class="w-4/5 mx-auto mb-8">
+                <div class="mb-8 mx-auto w-4/5">
                     <p class="mb-8 text-lg sm:text-xl">If you're interested in my projects and want to keep up or collaborate - follow and contact me on twitter</p>
 
                     <a href="https://twitter.com/pj_manning" target="_blank" class="inline-flex items-center px-12 py-4 rounded" style="background-color: #1da1f2">
@@ -453,12 +453,12 @@
                                 fill-rule="nonzero"
                             />
                         </svg>
-                        <span class="ml-4 text-xl text-white">@pj_manning</span>
+                        <span class="ml-4 text-white text-xl">@pj_manning</span>
                     </a>
                 </div>
             </div>
 
-            <div class="pb-4 mx-auto -mt-32 overflow-x-hidden">
+            <div class="-mt-32 mx-auto pb-4 overflow-x-hidden">
                 <svg width="725" height="166" class="mx-auto" xmlns="http://www.w3.org/2000/svg">
                     <g fill="none" fill-rule="evenodd">
                         <g opacity=".515">

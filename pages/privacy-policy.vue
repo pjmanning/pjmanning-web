@@ -1,6 +1,6 @@
 <template>
-    <div class="max-w-5xl px-4 mx-auto my-20 prose">
-        <h1 class="pb-4 text-5xl text-center">Privacy Policy's</h1>
+    <div class="prose mx-auto my-20 px-4 max-w-5xl">
+        <h1 class="pb-4 text-center text-5xl">Privacy Policy's</h1>
         <div id="doodDevelopments">
             <h2>doodDevelopments & PJManning.dev's Policy</h2>
             <p>Your privacy is important to us.</p>

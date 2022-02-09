@@ -1,6 +1,6 @@
 <template>
-    <div class="max-w-5xl px-4 mx-auto">
-        <h1 class="pb-4 text-5xl text-center">Terms & Conditions</h1>
+    <div class="mx-auto px-4 max-w-5xl">
+        <h1 class="pb-4 text-center text-5xl">Terms & Conditions</h1>
         <p data-unit="px" data-web-font="Courier New, Courier, monospace" class="">
             This website (the “Site”) is owned and operated by doodDevelopments, LLC (pjmanning.dev) hereby referred to as “COMPANY,” “we” or “us”. By using the Site, you agree to be bound by these Terms of Service and to use the Site in accordance with these Terms of Service, our Privacy Policy and any additional terms and conditions that may apply to specific sections of the Site or to products and services available through the Site or from COMPANY. Accessing the Site, in any manner, whether
             automated or otherwise, constitutes use of the Site and your agreement to be bound by these Terms of Service. These terms are valid for pjmanning.dev.<br /><br />We reserve the right to change these Terms of Service or to impose new conditions on use of the Site, from time to time, in which case we will post the revised Terms of Service on this website. By continuing to use the Site after we post any such changes, you accept the Terms of Service, as modified.<br /><br /><br /><strong

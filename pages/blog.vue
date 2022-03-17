@@ -7,7 +7,7 @@
             <div class="relative mx-auto max-w-7xl">
                 <div class="text-center">
                     <h2 class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">News & Updates</h2>
-                    <p class="mx-auto mt-3 max-w-2xl text-xl leading-7 text-gray-500 sm:mt-4">Projects I'm working on, where I'm working and more...</p>
+                    <p class="mx-auto mt-3 max-w-2xl text-xl leading-7 text-gray-500 sm:mt-4">Projects I'm working on, where I'm working & more...</p>
                 </div>
                 <div class="mx-auto my-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
                     <nuxt-link v-for="post in posts" :key="post.title" :to="post.slug" class="flex transform flex-col overflow-hidden rounded-lg shadow-lg transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-2xl">
